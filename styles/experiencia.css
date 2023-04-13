@@ -1,0 +1,11 @@
+.trabalho ul{
+    display: flex;
+}
+.trabalho ul li{
+    margin-inline: 25px;
+    list-style: circle; 
+}
+
+.trabalho ul li h3 + span{
+    color: black;
+}

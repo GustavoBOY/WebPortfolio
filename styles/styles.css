@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url(certificados.css);
+@import url(experiencia.css);
 @import url(navbar.css);
 
 *{
@@ -17,6 +17,7 @@ body, html{
 .main__content{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 .content__primary{
     box-sizing: border-box;
