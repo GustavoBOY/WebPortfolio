@@ -7,19 +7,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-transform: none;
 }
 
 body, html{
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     box-sizing: border-box;
     background-color: #FFF;
     color: #040404;
     scroll-behavior: smooth;
 }
 .main__content{
-    max-width: 80vw;
-    max-height: 100vh;
+    width: 80vw;
 }
 .title{
     font-size: 1.7rem;
@@ -36,7 +36,6 @@ body, html{
 .texto{
     font-size: 14px;
     font-family: sans-serif;
-    text-transform: none;
 }
 
 

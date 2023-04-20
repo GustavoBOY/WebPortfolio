@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
+
 section {
 height: 100vh;
 width: 100%;
 background-color: #f1f1f1;
 display: flex;
-align-items: center;
 justify-content: center;
-text-transform: uppercase;
+text-align: center;
+justify-content: center;
 }
 nav {
 position: fixed;
 top: 0;
 width: 100%;
-z-index: 1000;
 background-color: #192a56;
 }
 nav .container {
