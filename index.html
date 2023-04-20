@@ -6,101 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina inicial</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="https://kit.fontawesome.com/54ffcf3ed5.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
-    <!-- <header class="navbar">
-        <ul class="nav" id="navlinks">
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#experiencia">Experiência Profissional</a></li>
-            <li><a href="#certificados">Certificados</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </header> -->
 
-    <div id="sidebar">
-        <div class="toggle-btn">
-            <a href="javascript:void(0);" class="icon" onclick="toogleSidebar()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <nav>
+        <div class="container">
+            <ul>
+                <li class="home"><a href="#home">Habilidades</a></li>
+                <li class="experiencia"><a href="#experiencia">Experiência Profissional</a></li>
+                <li class="certificados"><a href="#certificados">Certificados</a></li>
+                <li class="contato"><a href="#contato">Contato</a></li>
+            </ul>
         </div>
-        <div class="toggle-btn-closed">
-            <a href="javascript:void(0);" class="icon" onclick="toogleSidebarClosed()">
-                <i class="fa-sharp fa-regular fa-circle-xmark fa-lg"></i>
-            </a>
+    </nav>
+    <section class="info" id="home">
+        <div class="main__content">
+            <h1 class="title">Olá, meu nome é Gustavo</h1>
+            <p class="texto">Sou técnico de suporte em TI formado pela Universidade Pitágoras Unopar Anhanguera. Com mais de 2 anos de experiência em suporte técnico, trabalhei em alguns projetos onde desenvolvi minhas habilidades em infraestrutura e segurança de TI. Recentemente, trabalhei em um projeto de implementação de autenticação de dois fatores que resultou em um aumento de segurança aos equipamentos e colaboradores. </p>
+                <p class="texto">Como técnico de suporte em TI, meu objetivo é desenvolver soluções eficientes que possibilitam o auxílio às equipes de infraestrutura e segurança, agregando valor à equipe como um todo. Minha paixão pela programação me permite utilizar meus conhecimentos para criar soluções inovadoras e seguras. Meu objetivo de longo prazo é me tornar um especialista em segurança de TI, utilizando meus conhecimentos em programação para desenvolver soluções inovadoras e seguras. </p> 
         </div>
-       <ul>
-         <li><center><img class="logo" src="imgs/logo/eu.jpg" alt=""><br><br>Gustavo Boy </center></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#experiencia">Experiência Profissional</a></li>
-            <li><a href="#certificados">Certificados</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
-
-    <main class="main__content">
-        <div class="content__primary">
-
-            <section class="info" id="quem-sou">
-                <h1 class="title">Portfolio</h1>
-                <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </section>
-
-            <section class="info" id="skills">
-                <h3 class="subtitle">Principais linguagens de programação, frameworks e ferramentas utilizadas</h3>
-                <div class="skills imgs">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" height="40"/>
-                </div>
-                <div class="skills imgs">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40"/> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="40" height="40"/>    
-                </div>
-                
-            </section>
-
-            <section class="info" id="experiencia">
-                <h3 class="subtitle">Experiência Profissional</h3>
-                <div class="trabalho">
-                    <ul>
-                        <li>
-                            <h4><strong>Empresa: </strong>Tepel Pneus e Acessórios LTDA</h4> <br>
-                            <p><strong>Cargo: </strong>Auxiliar de serviços gerais</p> <br>
-                            <p><strong>Duração: </strong>2019 - 2021</p>
-                        </li>
-                        <li>
-                            <h4><strong>Empresa: </strong>Alterdata Software</h4> <br>
-                            <p><strong>Cargo: </strong>Auxiliar de Escritório em Geral</p> <br>
-                            <p><strong>Duração: </strong>2021 - 2022</p>
-                        </li>
-                        <li>
-                            <h4><strong>Empresa: </strong>Alterdata Software</h4> <br>
-                            <p><strong>Cargo: </strong>Tecnico de Suporte em TI</p> <br>
-                            <p><strong>Duração: </strong>2022 - atual momento</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="info" id="certificados">
-                <h3 class="subtitle">Certificados</h3>
-                
-            </section>
-
-            <section class="info" id="contato">
-                <h3 class="subtitle">Contato</h3>
-            </section>
+        
+        <h3 class="subtitle">Principais linguagens de programação, frameworks e ferramentas utilizadas</h3>
+        <div class="skills imgs">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" height="40"/>
         </div>
-    </main>
+        <div class="skills imgs">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40"/> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" width="40" height="40"/>    
+        </div>
+        
+    </section>
 
-    <footer class="rodape">
+    <section class="info" id="experiencia">
+        <h3 class="subtitle">Experiência Profissional</h3>
+        <div class="trabalho">
+            <ul>
+                <li>
+                    <h4><strong>Empresa: </strong>Tepel Pneus e Acessórios LTDA</h4> <br>
+                    <p><strong>Cargo: </strong>Auxiliar de serviços gerais</p> <br>
+                    <p><strong>Duração: </strong>2019 - 2021</p>
+                </li>
+                <li>
+                    <h4><strong>Empresa: </strong>Alterdata Software</h4> <br>
+                    <p><strong>Cargo: </strong>Auxiliar de Escritório em Geral</p> <br>
+                    <p><strong>Duração: </strong>2021 - 2022</p>
+                </li>
+                <li>
+                    <h4><strong>Empresa: </strong>Alterdata Software</h4> <br>
+                    <p><strong>Cargo: </strong>Tecnico de Suporte em TI</p> <br>
+                    <p><strong>Duração: </strong>2022 - atual momento</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    </footer>
+    <section class="info" id="certificados">
+        <h3 class="subtitle">Certificados</h3>        
+    </section>
+
+    <section class="info" id="contato">
+        <h3 class="subtitle">Contato</h3>
+    </section>
 
     <script src="script/navbar.js"></script>
 </body>
