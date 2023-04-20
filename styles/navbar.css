@@ -8,6 +8,8 @@ background-color: #f1f1f1;
 display: flex;
 justify-content: center;
 text-align: center;
+z-index: 1;
+box-sizing: border-box;
 }
 nav {
 position: fixed;
