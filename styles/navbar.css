@@ -8,12 +8,11 @@ background-color: #f1f1f1;
 display: flex;
 justify-content: center;
 text-align: center;
-justify-content: center;
 }
 nav {
 position: fixed;
 top: 0;
-width: 100%;
+width: 100vw;
 background-color: #192a56;
 }
 nav .container {

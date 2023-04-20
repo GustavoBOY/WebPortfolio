@@ -10,16 +10,14 @@
 }
 
 body, html{
-    margin: 0;
-    padding: 0;
     height: 100%;
-    box-sizing: border-box;
     background-color: #FFF;
     color: #040404;
     scroll-behavior: smooth;
 }
 .main__content{
     width: 80vw;
+    he
 }
 .title{
     font-size: 1.7rem;
@@ -42,9 +40,6 @@ body, html{
 .info{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.info div img{
     align-items: center;
 }
 
